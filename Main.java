@@ -11,8 +11,7 @@ public class Main {
         frame.setLocationRelativeTo(null); 
         frame.setResizable(false);         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        // Khởi tạo 
+        
         FlappyBird flappyBird = new FlappyBird();
         frame.add(flappyBird);
         frame.pack();

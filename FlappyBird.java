@@ -45,7 +45,6 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         Pipe(Image img) { this.img = img; }
     }
 
-    // Logic Game
     Bird bird;
     int velocityX = -4; 
     int velocityY = 0;  
